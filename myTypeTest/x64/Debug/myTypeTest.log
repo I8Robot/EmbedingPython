@@ -1,0 +1,20 @@
+﻿Build started 2018/5/31 17:25:27.
+     1>Project "E:\project\C++\embedPython\myTypeTest\myTypeTest.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ymyTypeTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt myTypeTest.cpp
+         myTypeTest.cpp
+     1>myTypeTest.cpp(305): warning C4129: '%' : unrecognized character escape sequence
+     1>myTypeTest.cpp(327): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>myTypeTest.cpp(372): warning C4101: 'v' : unreferenced local variable
+     1>e:\project\c++\embedpython\mytypetest\mytypetest.cpp(274): warning C4715: 'CompileByPython' : not all control paths return a value
+     1>e:\project\c++\embedpython\mytypetest\mytypetest.cpp(225): warning C4715: 'testType' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\C++\embedPython\x64\Debug\myTypeTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\C++\embedPython\x64\Debug\myTypeTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\C++\embedPython\x64\Debug\myTypeTest.lib" /MACHINE:X64 /PROFILE x64\Debug\myTypeTest.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+         myTypeTest.vcxproj -> E:\project\C++\embedPython\x64\Debug\myTypeTest.exe
+     1>Done Building Project "E:\project\C++\embedPython\myTypeTest\myTypeTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07

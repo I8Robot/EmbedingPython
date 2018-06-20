@@ -1,0 +1,9 @@
+<_io.TextIOWrapper name='outputlog.txt' mode='a' encoding='cp936'>
+__main__
+asdfasfdasf
+<_io.TextIOWrapper name='outputlog.txt' mode='a' encoding='cp936'>
+__main__
+asdfasfdasf
+<_io.TextIOWrapper name='outputlog.txt' mode='a' encoding='cp936'>
+__main__
+asdfasfdasf
